@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.common-font{
+    font-family: "Poppins", sans-serif;
+}
+
+
+.navbar{
+    max-width: 1280px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+.navbar-list li{
+   list-style: none;
+   font-size: 1rem;
+   font-weight: 500;
+   
+}
+.navbar-list a{
+    text-decoration: none;
+}
+.navbar-list{
+    display: flex;
+    gap: 25px;
+}
+.navbar h4{
+    font-size: 1.40rem;
+    color: #3A3A3A;
+}
+.common-color{
+    color: #3A3A3A;
+}
