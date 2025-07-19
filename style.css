@@ -17,6 +17,8 @@
     align-items: center;
     justify-content: space-between;
     margin-top: 40px;
+    margin-bottom: 40px;
+    
 }
 .navbar-list li{
    list-style: none;
@@ -38,3 +40,73 @@
 .common-color{
     color: #3A3A3A;
 }
+.hero-section{
+    max-width: 1280px;
+    margin: 0 auto;
+    display: flex;
+    gap: 200px;
+    align-items: center;
+    margin-top: 90px;
+}
+.hero-section-img{
+    background-image: url(./images/Circle\ design.svg);
+    background-repeat: no-repeat;
+    max-width: 45%;
+    background-size: contain;
+   
+   
+}
+.hero-section-des{
+   max-width: 55%;
+}
+.hero-section-des h1{
+    font-size: 3.25rem;
+    font-weight: 700;
+}
+.hero-section-des p{
+    font-size: 0.9rem;
+    font-weight: 500;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+.btn-design{
+    background-color: #E02C6D;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 15px;
+    font-size: 0.8rem;
+}
+
+@media (max-width:576px) {
+    .navbar{
+        flex-direction: column;
+    }
+    .navbar-list{
+        flex-direction: column;
+        gap: 10px;
+    }
+    .hero-section{
+        flex-direction: column-reverse;
+        gap: 30px; 
+        padding: 0 30px;
+        text-align: center; 
+        margin-top: -20px;
+    }
+    .hero-section-img{
+        max-width: 80%;
+        background-size: contain;
+    }
+    .hero-section-img img{
+        width:100%;
+    }
+    .hero-section-des{
+        max-width: 100%;
+    }
+    .hero-section-des h1{
+        font-size: 1.5rem;
+    }
+   
+}
+
+
