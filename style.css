@@ -77,7 +77,24 @@
     border-radius: 15px;
     font-size: 0.8rem;
 }
+.sponsor{
+    max-width: 1140px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+.sponsor-img{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.sponsor hr{
+    opacity: 0.5;
+}
 
+
+
+
+/* responsive-part */
 @media (max-width:576px) {
     .navbar{
         flex-direction: column;
